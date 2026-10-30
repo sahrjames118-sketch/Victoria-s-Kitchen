@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu | Victoria's Kitchen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html" class="logo">Victoria's Kitchen</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="order.html">Order</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="page-banner">
+            <h1>Our Menu</h1>
+            <p>Delicious food, tasty snacks and refreshing drinks.</p>
+        </section>
+
+        <section class="section">
+
+            <input type="search" id="menuSearch" placeholder="Search food, snacks or drinks..." aria-label="Search menu">
+
+            <div class="filters">
+                <button class="filter-btn active" data-category="all">All Items</button>
+                <button class="filter-btn" data-category="food">Food</button>
+                <button class="filter-btn" data-category="snacks">Snacks</button>
+                <button class="filter-btn" data-category="drinks">Drinks</button>
+            </div>
+
+            <div class="cards menu-grid">
+
+                <!-- FOOD -->
+
+                <article class="card menu-item" data-category="food">
+                    <img src="./images/jollof rice.jpg" alt="Jollof Rice" onerror="this.onerror=null;this.src='images/placeholder.jpg'">
+                    <h3>Jollof Rice</h3>
+                    <p>Rice cooked with tomatoes and spices.</p>
+                    <strong>Le 100</strong>
+                    <button class="btn add-order" data-name="Jollof Rice" data-price="100">Order This</button>
+                </article>
+
+                <article class="card menu-item" data-category="food">
+                    <img src="./images/fried rice.jpg" alt="Fried Rice" onerror="this.onerror=null;this.src='images/placeholder.jpg'">
+                    <h3>Fried Rice</h3>
+                    <p>Seasoned rice with vegetables.</p>
+                    <strong>Le 110</strong>
+                    <button class="btn add-order" data-name="Fried Rice" data-price="110">Order This</button>
+                </article>
+
+                <article class="card menu-item" data-category="food">
+                    <img src="./images/cassava leaf.jpg" alt="Cassava Leaves" onerror="this.onerror=null;this.src='images/placeholder.jpg'">
+                    <h3>Cassava Leaves</h3>
+                    <p>A traditional West African dish.</p>
+                    <strong>Le 120</strong>
+                    <button class="btn add-order" data-name="Cassava Leaves" data-price="120">Order This</button>
+                </article>
+
+                <article class="card menu-item" data-category="food">
+                    <img src="./images/potato leaf.jpg" alt="Potato Leaves" onerror="this.onerror=null;this.src='images/placeholder.jpg'">
+                    <h3>Potato Leaves</h3>
+                    <p>A traditional leafy vegetable dish.</p>
+                    <strong>Le 120</strong>
+                    <button class="btn add-order" data-name="Potato Leaves" data-price="120">Order This</button>
+                </article>
+
+                <article class="card menu-item" data-category="food">
+                    <img src="./images/Groundnut Soup.jpg" alt="Groundnut Soup" onerror="this.onerror=null;this.src='images/placeholder.jpg'">
+                    <h3>Groundnut Soup</h3>
+                    <p>Rich soup served with a side of your choice.</p>
+                    <strong>Le 130</strong>
+                    <button class="btn add-order" data-name="Groundnut Soup" data-price="130">Order This</button>
+                </article>
+
+                <article class="card menu-item" data-category="food">
+                    <img src="./images/okra soup.jpg" alt="Okra Soup" onerror="this.onerror=null;this.src='images/placeholder.jpg'">
+                    <h3>Okra Soup</h3>
+                    <p>A traditional soup served with a side.</p>
+                    <strong>Le 110</strong>
+                    <button class="btn add-order" data-name="Okra Soup" data-price="110">Order This</button>
+                </article>
+
+                <article class="card menu-item" data-category="food">
+                    <img src="./images/Grilled Chiken.jpg" alt="Grilled Chicken" onerror="this.onerror=null;this.src='images/placeholder.jpg'">
+                    <h3>Grilled Chicken</h3>
+                    <p>Grilled chicken served with your choice of side.</p>
+                    <strong>Le 150</strong>
+                    <button class="btn add-order" data-name="Grilled Chicken" data-price="150">Order This</button>
+                </article>
+
+                <article class="card menu-item" data-category="food">
+                    <img src="./images/Beef Burger.jpg" alt="Beef Burger" onerror="this.onerror=null;this.src='images/placeholder.jpg'">
+                    <h3>Beef Burger</h3>
+                    <p>A burger with beef and fresh toppings.</p>
+                    <strong>Le 120</strong>
+                    <button class="btn add-order" data-name="Beef Burger" data-price="120">Order This</button>
+                </article>
+
+                <article class="card menu-item" data-category="food">
+                    <img src="./images/Pizza" alt="Pizza" onerror="this.onerror=null;this.src='images/placeholder.jpg'">
+                    <h3>Pizza</h3>
+                    <p>Oven-baked pizza with delicious toppings.</p>
+                    <strong>Le 180</strong>
+                    <button class="btn add-order" data-name="Pizza" data-price="180">Order This</button>
+                </article>
+
+                <article class="card menu-item" data-category="food">
+                    <img src="./images/Spaghetti.jpg" alt="Spaghetti" onerror="this.onerror=null;this.src='images/placeholder.jpg'">
+                    <h3>Spaghetti</h3>
+                    <p>Spaghetti served with a savoury sauce.</p>
+                    <strong>Le 100</strong>
+                    <button class="btn add-order" data-name="Spaghetti" data-price="100">Order This</button>
+                </article>
+
+                <article class="card menu-item" data-category="food">
+                    <img src="./images/Fried Fish.jpg" alt="Fried Fish" onerror="this.onerror=null;this.src='images/placeholder.jpg'">
+                    <h3>Fried Fish</h3>
+                    <p>Fish served with a side of your choice.</p>
+                    <strong>Le 130</strong>
+                    <button class="btn add-order" data-name="Fried Fish" data-price="130">Order This</button>
+                </article>
+
+                <!-- SNACKS -->
+
+                <article class="card menu-item" data-category="snacks">
+                    <img src="./images/French Fries.jpg" alt="French Fries" onerror="this.onerror=null;this.src='images/placeholder.jpg'">
+                    <h3>French Fries</h3>
+                    <p>Crispy potato fries.</p>
+                    <strong>Le 60</strong>
+                    <button class="btn add-order" data-name="French Fries" data-price="60">Order This</button>
+                </article>
+
+                <article class="card menu-item" data-category="snacks">
+                    <img src="./images/Meat Pie.jpg" alt="Meat Pie" onerror="this.onerror=null;this.src='images/placeholder.jpg'">
+                    <h3>Meat Pie</h3>
+                    <p>A savoury pastry snack.</p>
+                    <strong>Le 35</strong>
+                    <button class="btn add-order" data-name="Meat Pie" data-price="35">Order This</button>
+                </article>
+
+                <article class="card menu-item" data-category="snacks">
+                    <img src="./images/Sausage roll.jpg" alt="Sausage Roll" onerror="this.onerror=null;this.src='images/placeholder.jpg'">
+                    <h3>Sausage Roll</h3>
+                    <p>Pastry filled with sausage.</p>
+                    <strong>Le 30</strong>
+                    <button class="btn add-order" data-name="Sausage Roll" data-price="30">Order This</button>
+                </article>
+
+                <article class="card menu-item" data-category="snacks">
+                    <img src="./images/Samosas.jpg" alt="Samosas" onerror="this.onerror=null;this.src='images/placeholder.jpg'">
+                    <h3>Samosas</h3>
+                    <p>Crispy savoury pastry parcels.</p>
+                    <strong>Le 25</strong>
+                    <button class="btn add-order" data-name="Samosas" data-price="25">Order This</button>
+                </article>
+
+                <article class="card menu-item" data-category="snacks">
+                    <img src="./images/Cup cake.jpg" alt="Cupcake" onerror="this.onerror=null;this.src='images/placeholder.jpg'">
+                    <h3>Cupcake</h3>
+                    <p>A sweet baked treat.</p>
+                    <strong>Le 30</strong>
+                    <button class="btn add-order" data-name="Cupcake" data-price="30">Order This</button>
+                </article>
+
+                <article class="card menu-item" data-category="snacks">
+                    <img src="./images/Pan Cake.jpg" alt="Pancakes" onerror="this.onerror=null;this.src='images/placeholder.jpg'">
+                    <h3>Pancakes</h3>
+                    <p>Soft pancakes for breakfast or a snack.</p>
+                    <strong>Le 45</strong>
+                    <button class="btn add-order" data-name="Pancakes" data-price="45">Order This</button>
+                </article>
+
+                <article class="card menu-item" data-category="snacks">
+                    <img src="./images/Sandwich.jpg" alt="Sandwich" onerror="this.onerror=null;this.src='images/placeholder.jpg'">
+                    <h3>Sandwich</h3>
+                    <p>A freshly assembled sandwich.</p>
+                    <strong>Le 50</strong>
+                    <button class="btn add-order" data-name="Sandwich" data-price="50">Order This</button>
+                </article>
+
+                <!-- DRINKS -->
+
+                <article class="card menu-item" data-category="drinks">
+                    <img src="./images/cola 1.jpg" alt="Coca-Cola" onerror="this.onerror=null;this.src='images/placeholder.jpg'">
+                    <h3>Coca-Cola</h3>
+                    <p>A chilled cola drink.</p>
+                    <strong>Le 25</strong>
+                    <button class="btn add-order" data-name="Coca-Cola" data-price="25">Order This</button>
+                </article>
+
+                <article class="card menu-item" data-category="drinks">
+                    <img src="./images/fanta 1.jpg" alt="Orange Soft Drink" onerror="this.onerror=null;this.src='images/placeholder.jpg'">
+                    <h3>Fanta</h3>
+                    <p>A cold orange-flavoured soft drink.</p>
+                    <strong>Le 25</strong>
+                    <button class="btn add-order" data-name="Fanta" data-price="25">Order This</button>
+                </article>
+
+                <article class="card menu-item" data-category="drinks">
+                    <img src="./images/Lemon Lime Drink.jpg" alt="Lemon Lime Drink" onerror="this.onerror=null;this.src='images/placeholder.jpg'">
+                    <h3>Lemon Lime Drink</h3>
+                    <p>A refreshing fizzy drink.</p>
+                    <strong>Le 25</strong>
+                    <button class="btn add-order" data-name="Lemon Lime Drink" data-price="25">Order This</button>
+                </article>
+
+                <article class="card menu-item" data-category="drinks">
+                    <img src="./images/Orange Juice.jpg" alt="Orange Juice" onerror="this.onerror=null;this.src='images/placeholder.jpg'">
+                    <h3>Orange Juice</h3>
+                    <p>Refreshing orange juice.</p>
+                    <strong>Le 40</strong>
+                    <button class="btn add-order" data-name="Orange Juice" data-price="40">Order This</button>
+                </article>
+
+                <article class="card menu-item" data-category="drinks">
+                    <img src="./images/Pineapple Juice.jpg" alt="Pineapple Juice" onerror="this.onerror=null;this.src='images/placeholder.jpg'">
+                    <h3>Pineapple Juice</h3>
+                    <p>A tropical fruit drink.</p>
+                    <strong>Le 40</strong>
+                    <button class="btn add-order" data-name="Pineapple Juice" data-price="40">Order This</button>
+                </article>
+
+                <article class="card menu-item" data-category="drinks">
+                    <img src="./images/fruit smoothie" alt="Fruit Smoothie" onerror="this.onerror=null;this.src='images/placeholder.jpg'">
+                    <h3>Fruit Smoothie</h3>
+                    <p>A blended fruit drink.</p>
+                    <strong>Le 55</strong>
+                    <button class="btn add-order" data-name="Fruit Smoothie" data-price="55">Order This</button>
+                </article>
+
+                <article class="card menu-item" data-category="drinks">
+                    <img src="./images/Iced Coffee.jpg" alt="Iced Coffee" onerror="this.onerror=null;this.src='images/placeholder.jpg'">
+                    <h3>Iced Coffee</h3>
+                    <p>Chilled coffee drink.</p>
+                    <strong>Le 45</strong>
+                    <button class="btn add-order" data-name="Iced Coffee" data-price="45">Order This</button>
+                </article>
+
+                <article class="card menu-item" data-category="drinks">
+                    <img src="./images/Lemonade.jpg" alt="Lemonade" onerror="this.onerror=null;this.src='images/placeholder.jpg'">
+                    <h3>Lemonade</h3>
+                    <p>A cool lemon-flavoured drink.</p>
+                    <strong>Le 35</strong>
+                    <button class="btn add-order" data-name="Lemonade" data-price="35">Order This</button>
+                </article>
+
+                <article class="card menu-item" data-category="drinks">
+                    <img src="./images/Millkshake.jpg" alt="Milkshake" onerror="this.onerror=null;this.src='images/placeholder.jpg'">
+                    <h3>Milkshake</h3>
+                    <p>A creamy, chilled milkshake.</p>
+                    <strong>Le 60</strong>
+                    <button class="btn add-order" data-name="Milkshake" data-price="60">Order This</button>
+                </article>
+
+                <article class="card menu-item" data-category="drinks">
+                    <img src="./images/Water.jpg" alt="Bottled Water" onerror="this.onerror=null;this.src='images/placeholder.jpg'">
+                    <h3>Bottled Water</h3>
+                    <p>Packaged drinking water.</p>
+                    <strong>Le 15</strong>
+                    <button class="btn add-order" data-name="Bottled Water" data-price="15">Order This</button>
+                </article>
+
+            </div>
+
+            <p id="noResults" hidden>No matching menu items found.</p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Victoria's Kitchen. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

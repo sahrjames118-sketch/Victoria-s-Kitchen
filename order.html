@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place an Order | Victoria's Kitchen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">Victoria's Kitchen</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="order.html">Order</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-banner">
+            <h1>Place Your Order</h1>
+            <p>Tell us what you would like to order.</p>
+        </section>
+
+        <section class="section form-section">
+            <form id="orderForm">
+                <label for="customerName">Full Name</label>
+                <input type="text" id="customerName" required>
+
+                <label for="customerPhone">Phone Number</label>
+                <input type="tel" id="customerPhone" required>
+
+                <label for="customerAddress">Delivery Address</label>
+                <textarea id="customerAddress" rows="3" required></textarea>
+
+                <label for="orderItems">Your Order</label>
+                <textarea id="orderItems" rows="5"
+                    placeholder="Example: 2 Beef Burgers, 1 Orange Juice"
+                    required></textarea>
+
+                <label for="orderNotes">Additional Instructions</label>
+                <textarea id="orderNotes" rows="3"
+                    placeholder="Optional instructions"></textarea>
+
+                <button type="submit" class="btn">
+                    Send Order on WhatsApp
+                </button>
+            </form>
+
+            <p class="notice">
+                Your WhatsApp application will open with your order details.
+                Review the message and press Send to submit your order.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Victoria's Kitchen. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
